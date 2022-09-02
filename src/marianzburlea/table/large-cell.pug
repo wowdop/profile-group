@@ -1,0 +1,31 @@
+extends ../../_component/layout/base
+block awesome-content
+  table(
+    cellpadding=10
+    border=15
+    cellspacing=20
+  )
+    tr
+      td 1
+      td 2
+      td 3
+      td 4
+      td(
+        rowspan=4
+      ) 5, 10, 15, 20
+
+    tr
+      td 6
+      td 7
+      td 8
+      td 9
+
+    tr
+      td 11
+      td(colspan=3) 12, 13, 14
+
+    tr
+      td 16
+      td 17
+      td 18
+      td 19
