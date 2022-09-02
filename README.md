@@ -228,3 +228,145 @@ If you want to improve your SEO and user experience even further, I strongly rec
 If you run `npm i`, the git history will get reset.
 
 To avoid resetting the git history run `npm i --ignore-scripts`
+
+---
+
+[Back to project](../README.md)
+
+## First Big Project
+
+We will work together, as a team, in order to get to know the HTML tags.
+
+### Mimimum tags knowledge to build a website
+
+#### Top 25 tags to start your first web site
+
+##### The must have three
+
+1. the `<html>` tag
+1. the `<head>` tag
+1. the `<body>` tag
+
+   ##### Must know inside the head
+
+1. the `<title>` tag
+1. the `<meta>` tag
+
+   ##### Basic building blocks
+
+1. the `<a>` tag
+1. the `<b>, <i>, <u>` tag
+
+1. the `<h1>` tag
+1. the `<h2>` tag
+
+1. the `<p>` tag
+1. the `<div>` tag
+1. the `<span>` tag
+1. the `<blockquote>` tag
+
+   ##### Basic Lists
+
+1. the `<ul>` tag
+1. the `<ol>` tag
+1. the `<li>` tag
+1. the `<table>` tag
+1. the `<tr>` tag
+1. the `<td>` tag
+
+   ##### Repeatable vs Unique content
+
+1. the `<header>` tag
+1. the `<footer>` tag
+1. the `<aside>` tag
+1. the `<main>` tag
+
+   ##### Embed content
+
+1. the `<img>` tag
+1. the `<iframe>` tag
+
+### Must know
+
+- the `<script>` tag
+- the `<style>` tag
+- the `<link>` tag
+- the `<article>` tag
+- the `<section>` tag
+- the `<nav>` tag
+- the `<h1>` tag
+- the `<h2>` tag
+- the `<h3>` tag
+- the `<h4>` tag
+- the `<h5>` tag
+- the `<h6>` tag
+
+- the `<audio>` tag
+- the `<video>` tag
+
+- the `<form>` tag
+- the `<input>` tag
+- the `<button>` tag
+- the `<fieldset>` tag
+- the `<input>` tag
+- the `<label>` tag
+- the `<select>` tag
+- the `<textarea>` tag
+- the `<datalist>` tag
+
+- the `<img>` tag
+- the `<embed>` tag
+- the `<figure>` tag
+- the `<picture>` tag
+- the `<svg>` tag
+
+- the `<hr>` tag
+- the `<br>` tag
+
+- the `<pre>` tag
+- the `<code>` tag
+
+- the `<s>` tag
+- the `<del>` tag
+- the `<strong>` tag
+- the `<b>` tag
+- the `<em>` tag
+- the `<i>` tag
+- the `<u>` tag
+
+- the `<small>` tag
+- the `<sub>` tag
+- the `<sup>` tag
+
+### Good to know
+
+- the `<menu>` tag
+- the `<base>` tag
+- the `<noscript>` tag
+- the `<data>` tag
+- the `<time>` tag
+- the `<bdo>` tag
+- the `<bdi>` tag
+- the `<abbr>` tag
+- the `<address>` tag
+- the `<canvas>` tag - TODO In JavaScript
+- the `<cite>` tag
+- the `<details>` tag
+- the `<dfn>` tag
+- the `<dl>` tag
+- the `<ins>` tag
+
+- the `<kbd>` tag
+- the `<map>` tag
+- the `<mark>` tag
+- the `<math>` tag
+- the `<meter>` tag
+- the `<object>` tag
+- the `<output>` tag
+- the `<progress>` tag
+- the `<q>` tag
+- the `<ruby>` tag
+- the `<samp>` tag
+- the `<template>` tag - (this will be presented in JavaScript)
+- the `<var>` tag
+- the `<wbr>` tag
