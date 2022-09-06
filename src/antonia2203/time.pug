@@ -1,0 +1,45 @@
+html 
+  head 
+    title The data-time, bdo-bdi and abbr-address tags
+  body 
+    h1 The data element 
+    p Groceries 
+    ul 
+      li 
+        data(value="1") Tomatoes 
+      li 
+        data(value="2") Carrots
+      li 
+        data(value='3') Potatoes
+    h2 The time element 
+    p 
+      | The groceries store is open from
+      time 08:00 
+      | to 
+      time 20:00
+    p I have a meeting on 20023-02-14.
+      time(datetime='20023-02-14 10:00')
+    p This text will go from right-to-left.
+    p
+      bdo(dir='rtl') This text will go from right-to-left.
+    div bdi tag
+      ul 
+        li 
+          bdi.name اَلأَعْشَى
+          | -1st place 
+        li 
+          bdi.name Antonia Maria 
+          | - 2nd place
+    div 
+      | We practice
+      dfn#html 
+        abbr(title='HyperText Markup Language') HTML 
+      | tags.
+    p The address element
+    address 
+      a(
+        href='mailto:info@jkrowling.com'
+        ) J.K. Riwling 
+      | wrote Harry Potter.
+
+
