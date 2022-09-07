@@ -1,28 +1,29 @@
-html 
+extends ../_component/layout/base
+
+block awesome-content
   head 
-    title The <dfn> , <dl> , <ins> and <kbd> tags.
-  body
-    p The dfn element 
-    p 
-      dfn HTML 
-      | is a standardized system for tagging text files to achieve font, colour, graphic, and hyperlink effects on World Wide Web pages.
-    span The dl tag 
-    p There three elements are used to create a descriprion list: 
-    dl 
-      dt Coffee 
-      dd Black hot drink 
-      dt Milk 
-      dd White cold drink
-    p The ins tag 
-    p 
-      | My favourite food is 
-      del burger 
-      |
-      ins pizza 
-      | !
-    p 
-      | Press 
-      kbd Ctrl 
-      | +
-      kbd C 
-      | to copy text on Windows.
+  title The <dfn> , <dl> , <ins> and <kbd> tags.
+  p The dfn element 
+  p 
+    dfn HTML 
+    | is a standardized system for tagging text files to achieve font, colour, graphic, and hyperlink effects on World Wide Web pages.
+  span The dl tag 
+  p There three elements are used to create a descriprion list: 
+  dl 
+    dt Coffee 
+    dd Black hot drink 
+    dt Milk 
+    dd White cold drink
+  p The ins tag 
+  p 
+    | My favourite food is 
+    del burger 
+    |
+    ins pizza 
+    | !
+  p 
+    | Press 
+    kbd Ctrl 
+    | +
+    kbd C 
+    | to copy text on Windows.
