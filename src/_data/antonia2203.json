@@ -1,0 +1,78 @@
+{
+  "name": "Mihai Antonia Maria",
+  "githubId": "antonia2203",
+  "work":[
+    {
+      "link": "audio",
+      "title": "The first Audio Tag ever made",
+      "fileType": "file"
+    },
+    {
+      "link": "blockquote",
+      "title": "First time using Blockquote",
+      "fileType": "file"
+    },
+    {
+      "link": "button",
+      "title": "I used the button tag to show a message 'Hello world!'",
+      "fileType": "file"
+    },
+    {
+      "link": "dfn",
+      "title": "I used the <dfn> , <dl> , <ins> and <kbd> tags ",
+      "fileType": "file"
+    },
+    {
+      "link": "fieldset",
+      "title": "I used the fieldset tag to create a form",
+      "fileType": "file"
+    },
+    {
+      "link": "headings",
+      "title": "I've made 6 headings and styled 2 of them",
+      "fileType": "file"
+    },
+    {
+      "link": "hera",
+      "title": "I used the h and p tags",
+      "fileType": "file"
+    },
+    {
+      "link": "menu",
+      "title": "I used the meta tag and made a list inside of it",
+      "fileType": "file"
+    },
+    {
+      "link": "meta",
+      "title": "I used multiple meta attributes",
+      "fileType": "file"
+    },
+    {
+      "link": "navigation",
+      "title": "I used the navigation tag and made an ordered list",
+      "fileType": "file"
+    },
+    {
+      "link": "navigation2",
+      "title": "
+      I used the nav tag to make an ordered list with a couple of links
+      ",
+      "fileType": "file"
+    },
+    {
+      "link": "paragraph",
+      "title": "I used the paragraph tag",
+      "fileType": "file"
+    },
+    {
+      "link": "text",
+      "title": "I used a bunch of text tags to  style the paragraphs and headings",
+      "fileType": "file"
+    },
+    {
+      "link": "time",
+      "title": "I practiced with the data-time, bdo-bdi and abbr-address tags",
+      "fileType": "file"
+    }
+  ]
+}
