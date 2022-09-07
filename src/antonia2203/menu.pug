@@ -1,25 +1,26 @@
-html 
+extends ../_component/layout/base
+
+block awesome-content
   head 
     title The menu, base and noscript elements
     base(
       href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/menu",
       target="_blank" 
       )
-  body 
-    h1 The base element 
-    p 
-      a(
-        href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base"
-      ) Da click pe mine
-    h2 A menu
-    menu 
-      li 
-        button(onclick="One()") One
-      li 
-        button(onclick="Two()") Two
-      li 
-        button(onclick="Three()") Three
-    div The noscript element 
-    script. 
-      document.write("Good morning!")
-    noscript Nu va aparea
+  h1 The base element 
+  p 
+    a(
+      href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base"
+    ) Da click pe mine
+  h2 A menu
+  menu 
+    li 
+      button(onclick="One()") One
+    li 
+      button(onclick="Two()") Two
+    li 
+      button(onclick="Three()") Three
+  div The noscript element 
+  script. 
+    document.write("Good morning!")
+  noscript Nu va aparea
