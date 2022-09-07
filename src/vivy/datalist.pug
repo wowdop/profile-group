@@ -1,0 +1,81 @@
+h1 O sa incepem cu datalist astazi 
+form(
+  method="get"
+)
+  label(for="browser") Choose your option from the list:
+  input(
+    list="browsers"
+    name="browser"
+    id="browser"
+  )
+  datalist(
+    id="browsers"
+  )
+    option(value="edge")
+    option(value="crome")
+    option(value="firefox")
+    option(value="mozzila")
+    option(value="safari")
+  input(type="submit") 
+b Note: The datalist tag is giving me some trouble
+embed(
+  type="video/webm"
+  src="https://www.youtube.com/watch?v=-sd8ZEUTxxk" 
+  width="350"
+  hight="350"
+)
+video(
+  type="audio"
+  src="https://www.youtube.com/watch?v=-sd8ZEUTxxk"
+  width="400"
+  hight="250"
+)
+embed(
+  type="image/jpg"
+  src="file:///C:/Users/LENOVO/Pictures/download.jpg"
+  width="350"
+  hight="350"
+)
+embed(
+  type="text/html"
+  src="https://www.w3schools.com/html"
+  width="365"
+  hight="250"
+)
+h2 We will try to figure an image and see what happens 
+figure(style="border:1px #cccccc solid;padding:4px;margin:auto")
+  img(
+    alt="Reprezinta chestie ambigua"
+    src="/asset/image/download.jpg"
+    width="365"
+    height="250"
+  )
+  figcaption(style="background-color:black;color:white;font-style:italic;padding:2px;text-align:center") azi de dimineata m`-am trezit aiurea si vreau sa bat pe toata lumea.....
+figure
+  img(
+    alt="Hai poate iti place acum"
+    src="https://picsum.photos/id/237/200/300"
+    width="200"
+    height="300"
+  )
+  figcaption "Fig.1 - Somewhere on this  Planet"
+h3 I will attempt another style for figure and hope to not fail miserable again:D
+figure(style="display:block;margin-top:1em;margin-bottom:1em;margin-left:40px;margin-right:40px")
+  img(
+    alt="Miau miau"
+    src="https://picsum.photos/id/237/200/300"
+    width="200"
+    height="300"
+  )
+h4 Apparently today we play with pictures
+p Resize the browser window to load different images 
+picture
+  source(
+    media="(min-width:650px)"
+    srcset="/asset/image/download.jpg"
+  )
+  source(
+    media="min-width:450px"
+    srcset="https://www.planetware.com/pictures/france-f.htm"
+  )
+  img(src="https://picsum.photos/200/300")
