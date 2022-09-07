@@ -4,11 +4,13 @@
   "work": [
     {
       "link": "div",
-      "title": "One of the most used html tags"
+      "title": "One of the most used html tags",
+      "fileType": "folder"
     },
     {
       "link": "table",
       "title": "One of the most less used html tags",
+      "fileType": "folder",
       "children": [
         {
           "link": "large-cell",

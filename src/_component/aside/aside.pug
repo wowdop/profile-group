@@ -1,6 +1,6 @@
 -
   var { mariateo, antonia2203, marianzburlea, vivy  } = data
-  const menuList = [mariateo, antonia2203, vivy, marianzburlea]
+  var menuList = [mariateo, antonia2203, vivy, marianzburlea]
 
 
 .aside
@@ -11,8 +11,26 @@
         h2= alabala.name
         ol
           each item in alabala.work
-            li
-              a(
-                href=`/${alabala.githubId}/${item.link}.html`
-                title= item.title
-              )= item.link
+            -
+              console.log(item)
+            if item.fileType === "folder"
+              li
+                a(
+                  href=`/${alabala.githubId}/${item.link}/index.html`
+                  title= item.title
+                )= item.link
+            else if item.children
+              each chestie in item.children
+                li
+                  a(
+                    href=`/${alabala.githubId}/${item.link}/${chestie.link}.html`
+                    title= chestie.title
+                  )= chestie.link
+            else
+              li
+                a(
+                  href=`/${alabala.githubId}/${item.link}.html`
+                  title= item.title
+                )= item.link
+
+

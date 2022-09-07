@@ -5,6 +5,7 @@
     {
       "link": "customer-table",
       "title": "A customers table just for fun",
+      "fileType":"folder",
       "children": [
         {
           "link": "customer-table",
@@ -15,6 +16,7 @@
     {
       "link": "main",
       "title": "Un titlu la misto",
+      "fileType":"folder",
       "children": [
         {
           "link": "main",
@@ -24,6 +26,7 @@
     },
     {
       "link": "pizza-mania",
+      "fileType":"folder",
       "title": "Pizza pizza pizza, I fookin love pizza",
       "children": [
         {
