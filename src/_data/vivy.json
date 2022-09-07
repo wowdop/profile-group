@@ -5,82 +5,82 @@
     {
       "link": "body",
       "title": "Primul body ever made",
-      "filetype": "single file"
+      "fileType": "file"
     },
     {
       "link": "datalist",
       "title": "Am folosit datalist, embed care e o prostie, figure si figcaption",
-      "filetype": "folder"
+      "fileType": "file"
     },
     {
       "link": "firstsolo",
       "title": "Am facut pentru prima data ceva cu span si div...",
-      "filetype": "folder"
+      "fileType": "file"
     },
     {
       "link": "Header-footer",
       "title": "Am incercat sa facem inceputl si sfarsitul unei carti",
-      "filetype": "folder"
+      "fileType": "file"
     },
     {
       "link": "hr-br",
       "title": "Folosind hr si br tags este foarte simplu de implementat",
-      "filetype": "folder"
+      "fileType": "file"
     },
     {
       "link": "index",
       "title": "primul index pug ce contine niste cuvinte aleatorii",
-      "filetype": "single file"
+      "fileType": "file"
     },
     {
       "link": "link",
       "title": "Aici am facut primele linkuri in situl nostru, a fost cool",
-      "filetype": "single file"
+      "fileType": "file"
     },
     {
       "link": "link.scss",
       "title": "am fost nevoit sa fac si acest scss link pentr a rezolva ceva",
-      "filetype": "single file"
+      "fileType": "file"
     },
     {
       "link": "new-footer",
       "title": "am incercat sa vedem cum va iesi acest awsome footer",
-      "filetype": "single file"
+      "fileType": "file"
     },
     {
       "link": "object",
       "title": "Am avut o gramada de adaugat aici cu obiectele",
-      "filetype": "folder"
+      "fileType": "file"
     },
     {
       "link": "ruby",
       "title": "Nu este despre piatra pretioasa ci despre var rt rp si br",
-      "filetype": "folder"
+      "fileType": "file"
     },
     {
       "link": "scripts",
       "title": "Am facut cateva scripturi ca sa vedem despre ce este vb",
-      "filetype": "single file"
+      "fileType": "file"
     },
     {
       "link": "style",
       "title": "we played with style bby",
-      "filetype": "single file"
+      "fileType": "file"
     },
     {
       "link": "svg",
       "title": "am bagat niste forme geometrice interesante, cu diferite culori",
-      "filetype": "folder"
+      "fileType": "file"
     },
     {
       "link": "travel",
       "title": "we played with some links and href",
-      "filetype": "single file"
+      "fileType": "file"
     },
     {
       "link": "ul-ol-li",
       "title": "Diferite moduri de a pune o coloana cu cifre si litere",
-      "filetype": "folder"
+      "fileType": "file"
     }
   ]
 }
