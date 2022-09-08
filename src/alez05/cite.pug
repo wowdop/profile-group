@@ -1,46 +1,47 @@
-html
+extend ../_component/layout/base
+
+block awesome-content
   head
     title The element cite
-  body
-    h1 ma prietenasii mei
-    p frumos elegant
-    label(
-      for="one piece"
-    ) choose your character
-    select(
-      id="one piece"
-      name="anime  shit"
+  h1 ma prietenasii mei
+  p frumos elegant
+  label(
+    for="one piece"
+  ) choose your character
+  select(
+    id="one piece"
+    name="anime  shit"
+  )
+    optgroup(
+      label="pirates"
     )
+      option(
+        value="luffy"
+      ) luffy
+      option(
+        value="zorro"
+      ) zorro
+      option(
+        value="sanji"
+      ) sanji
       optgroup(
-        label="pirates"
+        label="marines"
       )
         option(
-          value="luffy"
-        ) luffy
+          value="garp"
+        ) garp
         option(
-          value="zorro"
-        ) zorro
+          value="akianu"
+        ) akianu
         option(
-          value="sanji"
-        ) sanji
-        optgroup(
-          label="marines"
-        )
-          option(
-            value="garp"
-          ) garp
-          option(
-            value="akianu"
-          ) akianu
-          option(
-            value="kizaru"
-          ) kizaru
-    div
-      img(
-        alt="one piece"
-        width="350"
-        height="250"
-        src="https://picsum.photos/id/870/200/300?grayscale&blur=2`"
-      )
-      p
-        cite one piece
+          value="kizaru"
+        ) kizaru
+  div
+    img(
+      alt="one piece"
+      width="350"
+      height="250"
+      src="https://picsum.photos/id/870/200/300?grayscale&blur=2`"
+    )
+    p
+      cite one piece
