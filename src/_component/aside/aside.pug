@@ -1,0 +1,34 @@
+-
+  var { mariateo, antonia2203, marianzburlea, vivy, alez05 } = data
+  var menuList = [mariateo, antonia2203, vivy, marianzburlea, alez05]
+
+
+.aside
+  h3 There will be some awsome content to go through on this side of the page
+  ul
+    each alabala in menuList
+      li
+        h2= alabala.name
+        ol
+          each item in alabala.work
+            if item.fileType === "folder"
+              li
+                a(
+                  href=`/${alabala.githubId}/${item.link}/index.html`
+                  title= item.title
+                )= item.link
+            else if item.children
+              each chestie in item.children
+                li
+                  a(
+                    href=`/${alabala.githubId}/${item.link}/${chestie.link}.html`
+                    title= chestie.title
+                  )= chestie.link
+            else
+              li
+                a(
+                  href=`/${alabala.githubId}/${item.link}.html`
+                  title= item.title
+                )= item.link
+
+

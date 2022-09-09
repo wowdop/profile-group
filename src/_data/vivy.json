@@ -1,0 +1,86 @@
+{
+  "name": "Viorel Tomita",
+  "githubId": "Vivy",
+  "work":[
+    {
+      "link": "body",
+      "title": "Primul body ever made",
+      "fileType": "file"
+    },
+    {
+      "link": "datalist",
+      "title": "Am folosit datalist, embed care e o prostie, figure si figcaption",
+      "fileType": "file"
+    },
+    {
+      "link": "firstsolo",
+      "title": "Am facut pentru prima data ceva cu span si div...",
+      "fileType": "file"
+    },
+    {
+      "link": "Header-footer",
+      "title": "Am incercat sa facem inceputl si sfarsitul unei carti",
+      "fileType": "file"
+    },
+    {
+      "link": "hr-br",
+      "title": "Folosind hr si br tags este foarte simplu de implementat",
+      "fileType": "file"
+    },
+    {
+      "link": "index",
+      "title": "primul index pug ce contine niste cuvinte aleatorii",
+      "fileType": "file"
+    },
+    {
+      "link": "link",
+      "title": "Aici am facut primele linkuri in situl nostru, a fost cool",
+      "fileType": "file"
+    },
+    {
+      "link": "link.scss",
+      "title": "am fost nevoit sa fac si acest scss link pentr a rezolva ceva",
+      "fileType": "file"
+    },
+    {
+      "link": "new-footer",
+      "title": "am incercat sa vedem cum va iesi acest awsome footer",
+      "fileType": "file"
+    },
+    {
+      "link": "object",
+      "title": "Am avut o gramada de adaugat aici cu obiectele",
+      "fileType": "file"
+    },
+    {
+      "link": "ruby",
+      "title": "Nu este despre piatra pretioasa ci despre var rt rp si br",
+      "fileType": "file"
+    },
+    {
+      "link": "scripts",
+      "title": "Am facut cateva scripturi ca sa vedem despre ce este vb",
+      "fileType": "file"
+    },
+    {
+      "link": "style",
+      "title": "we played with style bby",
+      "fileType": "file"
+    },
+    {
+      "link": "svg",
+      "title": "am bagat niste forme geometrice interesante, cu diferite culori",
+      "fileType": "file"
+    },
+    {
+      "link": "travel",
+      "title": "we played with some links and href",
+      "fileType": "file"
+    },
+    {
+      "link": "ul-ol-li",
+      "title": "Diferite moduri de a pune o coloana cu cifre si litere",
+      "fileType": "file"
+    }
+  ]
+}

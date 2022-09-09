@@ -1,0 +1,30 @@
+{
+  "name": "Marian Zburlea",
+  "githubId": "marianzburlea",
+  "work": [
+    {
+      "link": "div",
+      "title": "One of the most used html tags",
+      "fileType": "folder"
+    },
+    {
+      "link": "table",
+      "title": "One of the most less used html tags",
+      "fileType": "folder",
+      "children": [
+        {
+          "link": "large-cell",
+          "title": "colspan in action"
+        },
+        {
+          "link": "simple-table",
+          "title": "ugly layout with table, nice to view, not nice to code"
+        },
+        {
+          "link": "layout",
+          "title": "super cool and easy to start, don't do it!"
+        }
+      ]
+    }
+  ]
+}

@@ -1,100 +1,101 @@
-html
+extend ../_component/layout/base
+
+block awesome-content
   head
     title HunterxHunter
-  body
-    h1 The element form
-    p What is it? Let's find out!
-    form(
-      noValidate
-    )
-      fieldset
-        legend Multe chestii intr-un  formular
-        div
-          input(
-            type="text"
-            disabled
+  h1 The element form
+  p What is it? Let's find out!
+  form(
+    noValidate
+  )
+    fieldset
+      legend Multe chestii intr-un  formular
+      div
+        input(
+          type="text"
+          disabled
+        )
+      div
+        input(
+          type="password"
+        )
+      div
+        input(
+          type="email"
+        )
+      div
+        input(
+          type="date"
+        )
+      div
+        input(
+          type="submit"
+        )
+      div
+        input(
+          type="number"
+        )
+      div
+        label(
+          for="flowers"
+        ) Choose a flower
+          select(
+            id="flowers"
           )
-        div
-          input(
-            type="password"
-          )
-        div
-          input(
-            type="email"
-          )
-        div
-          input(
-            type="date"
-          )
-        div
-          input(
-            type="submit"
-          )
-        div
-          input(
-            type="number"
-          )
-        div
-          label(
-            for="flowers"
-          ) Choose a flower
-            select(
-              id="flowers"
-            )
-              option(
-                value="orhidee"
-              ) orhidee
-              option(
-                value="lalea"
-              ) lalea
-              option(
-                value="trandafir"
-              ) trandafir
-        div
-          button(
-            type="button"
-            onClick="alert('Pe un pod de nota 10')"
-          ) Click here
-        div
-          input(
-            type="color"
-            name="blue"
-            value="#0330fc"
-            id="blue"
-          )
-        div
-          form
-            fieldset
-              legend Boss de boss
-              label Selecteaza un fisier cu ce vrea sufletul tau
-                input(
-                  type="file"
-                  name="Gonkillua"
-                )
-              label Alege distanta parcursa
-                input(
-                  type="range"
-                  name="distance"
-                  min="0"
-                  max="7777"
-                  step="100"
-                )
-        div
-          form
-              label(
-                for="crunchyroll"
-              ) Crunchyroll
-              textarea(
-                id="crunchyroll"
-                name="spidermano"
-                rows="7"
-                cols="15"
-              ) Crunchyroll has idk many anime shit.
-              br
+            option(
+              value="orhidee"
+            ) orhidee
+            option(
+              value="lalea"
+            ) lalea
+            option(
+              value="trandafir"
+            ) trandafir
+      div
+        button(
+          type="button"
+          onClick="alert('Pe un pod de nota 10')"
+        ) Click here
+      div
+        input(
+          type="color"
+          name="blue"
+          value="#0330fc"
+          id="blue"
+        )
+      div
+        form
+          fieldset
+            legend Boss de boss
+            label Selecteaza un fisier cu ce vrea sufletul tau
               input(
-                type="submit"
-                value="submit"
+                type="file"
+                name="Gonkillua"
               )
+            label Alege distanta parcursa
+              input(
+                type="range"
+                name="distance"
+                min="0"
+                max="7777"
+                step="100"
+              )
+      div
+        form
+            label(
+              for="crunchyroll"
+            ) Crunchyroll
+            textarea(
+              id="crunchyroll"
+              name="spidermano"
+              rows="7"
+              cols="15"
+            ) Crunchyroll has idk many anime shit.
+            br
+            input(
+              type="submit"
+              value="submit"
+            )
 
 
 

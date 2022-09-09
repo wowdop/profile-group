@@ -1,15 +1,16 @@
-html 
+extends ../_component/layout/base
+
+block awesome-content
   head 
     title Audio Tag 
-  body 
-    figure 
-      figcaption Lion roar: 
-      audio(
-        controls
-        src="/asset/audio/lion.mp3"
-      )
-    div Horses
+  figure 
+    figcaption Lion roar: 
     audio(
-      controls 
-      src="/asset/audio/horse.mp3"
-      )
+      controls
+      src="/asset/audio/lion.mp3"
+    )
+  div Horses
+  audio(
+    controls 
+    src="/asset/audio/horse.mp3"
+    )

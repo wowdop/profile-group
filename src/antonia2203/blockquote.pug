@@ -1,14 +1,15 @@
-html 
+extends ../_component/layout/base
+
+block awesome-content
   head 
     meta(charset="UTF-8")
-    title Blockquote
-  body 
-    blockquote(cite="https://www.royalcanin.com/ro/cats/thinking-of-getting-a-cat?gclid=Cj0KCQjw08aYBhDlARIsAA_gb0dZiN6cDIavCCleLR07I8UlcLSgar2CUaJSk3uyb5SCG5D3whYs53QaAlXmEALw_wcB")
-      p Sfaturi și informații care te vor ajuta să iei decizia corectă pentru tine și viitoarea ta pisică.
-    blockquote(cite="https://www.dominos-pizza.ro/")
-      p
-        | ce mai faci#{" "}
-        em Aboneza-te sa poti viziona toate clipurile noastre delicioase#{" "}
-        | ce mai faci?
-    blockquote (cite="https://ro.wikipedia.org/wiki/%C8%98tefan_cel_Mare")
-      p Ștefan al III-lea (n. 1438-1439, Borzești – d. 2 iulie 1504, Suceava), supranumit Ștefan cel Mare sau, după canonizarea sa de către Biserica Ortodoxă Română, Ștefan cel Mare și Sfânt, a fost domnul Moldovei între anii 1457 și 1504. A fost fiul lui Bogdan al II-lea, domnind timp de 47 de ani, cea mai lungă domnie din epoca medievală din Țările Române.
+  title Blockquote
+  blockquote(cite="https://www.royalcanin.com/ro/cats/thinking-of-getting-a-cat?gclid=Cj0KCQjw08aYBhDlARIsAA_gb0dZiN6cDIavCCleLR07I8UlcLSgar2CUaJSk3uyb5SCG5D3whYs53QaAlXmEALw_wcB")
+    p Sfaturi și informații care te vor ajuta să iei decizia corectă pentru tine și viitoarea ta pisică.
+  blockquote(cite="https://www.dominos-pizza.ro/")
+    p
+      | ce mai faci#{" "}
+      em Aboneza-te sa poti viziona toate clipurile noastre delicioase#{" "}
+      | ce mai faci?
+  blockquote (cite="https://ro.wikipedia.org/wiki/%C8%98tefan_cel_Mare")
+    p Ștefan al III-lea (n. 1438-1439, Borzești – d. 2 iulie 1504, Suceava), supranumit Ștefan cel Mare sau, după canonizarea sa de către Biserica Ortodoxă Română, Ștefan cel Mare și Sfânt, a fost domnul Moldovei între anii 1457 și 1504. A fost fiul lui Bogdan al II-lea, domnind timp de 47 de ani, cea mai lungă domnie din epoca medievală din Țările Române.

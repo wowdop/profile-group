@@ -1,0 +1,76 @@
+{
+  "name": "Alexandru C",
+  "githubId": "alez05",
+  "work": [
+    {
+      "link": "a-tag",
+      "title": "The element a",
+      "folderType": "file"
+    },
+    {
+      "link": "article-tag",
+      "title": "Dressarosa",
+      "folderType": "file"
+    },
+    {
+      "link": "aside-tag",
+      "title": "PunkHazzard",
+      "folderType": "file"
+    },
+    {
+      "link": "cite",
+      "title": "Csf n-ai csf",
+      "folderType": "file"
+    },
+    {
+      "link": "details",
+      "title": "HunterxHunter",
+      "folderType": "file"
+    },
+    {
+      "link": "form",
+      "title": "Full metall",
+      "folderType": "file"
+    },
+    {
+      "link": "iframe",
+      "title": "Alchemist",
+      "folderType": "file"
+    },
+    {
+      "link": "img",
+      "title": "Alabasta",
+      "folderType": "file"
+    },
+    {
+      "link": "more-a-example",
+      "title": "Zorro",
+      "folderType": "file"
+    },
+    {
+      "link": "section-tag",
+      "title": "One Piece",
+      "folderType": "file"
+    },
+    {
+      "link": "the-b-i-u-tag",
+      "title": "Brotherhood",
+      "folderType": "file"
+    },
+    {
+      "link": "title",
+      "title": "Creed",
+      "folderType": "file"
+    },
+    {
+      "link": "video",
+      "title": "Serious Sam",
+      "folderType": "file"
+    },
+    {
+      "link": "zorro",
+      "title": "Pitou",
+      "folderType": "file"
+    }
+  ]
+}

@@ -1,14 +1,13 @@
-html 
+extends ../_component/layout/base
+
+block awesome-content
   head 
     title Button Tag 
-  body(
-    style="text-align:center; background-color: pink"
-  )
-    div The button Element 
-    button(
-      type="button",
-      onclick='alert(\'Hello world!\')'
-    ) Click Me!
-     
+  div The button Element 
+  button(
+    type="button",
+    onclick='alert(\'Hello world!\')'
+  ) Click Me!
+
 
 
