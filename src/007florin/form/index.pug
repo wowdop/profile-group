@@ -32,13 +32,17 @@ block awesome-content
     label(for="birth-date") Day of birth
     br
     input(
+      id="birth-date"
       type="date"
       name=""
-      )
+    )
     br
     label(for="phone-m") Mobile Number 
     br
-    input(type="mobile-n")
+    input(
+      id="phone-m"
+      type="number"
+    )
     br
     label(for="address") Address 1*
     br
@@ -50,13 +54,13 @@ block awesome-content
     br
     input(
       type="address"
-      )
+    )
     br
     label(for="post-code") Post Code 
     br
     input(
       type="post-code"
-      )
+    )
     br
     label(for="city") City*
     br
@@ -71,14 +75,19 @@ block awesome-content
     input(
       type="email"
       name=""
-      )
+    )
     br
     label(for="password") Password
     br
     input(
       type="password"
       name=""
-      )
+    )
+    br
+    input(
+      type="search"
+      name=""
+    )
     br
     p Now this is the most important part
     label(
@@ -86,28 +95,28 @@ block awesome-content
       ) Favourite Car
       select(
         name="fav-car"
-        ) 
+      )
         option(
           value=""
-          ) 
+        ) 
         option(
           value="mercedes"
-          ) Mercedes 
+        ) Mercedes 
         option(
           value="bmw"
-          ) BMW 
+        ) BMW 
         option(
            value="audi"
-          ) Audi
+        ) Audi
     br
     br
     input(
       type="button"
       value="Submit"
-      )
+    )
     input(
       type="reset"
-      )
+    )
     br
     br
     p * - this is a required field
