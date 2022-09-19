@@ -1,21 +1,131 @@
-form  
-  div this is a simple form for
-p I learn now
+extend ../../_component/layout/base
 
+block awesome-content
 
-form 
-  label(for="prim-nume") Nume
-  br
-  input(
-    type="text"
-    id="prim-nume"
-    value="Halip"
-  )
-  br
-  label(for="ultim-nume") Prenume
-  br
-  input(
-    type="text"
-    id="ultim-nume"
-    value="Maria"
-  )
+  //- form  
+  //-   div this is a simple form for
+  //- p I learn now
+  style.
+    form {
+      margin: 5px;
+    }
+
+  h1 Registration Form
+
+  form 
+    label(for="first-name") First Name*
+    br
+    input(
+      type="text"
+      id="first-name"
+      value=""
+    )
+    br
+    label(for="last-name") Last Name*
+    br
+    input(
+      type="text"
+      id="last-name"
+      value=""
+    )
+    br
+    label(for="birth-date") Day of birth
+    br
+    input(
+      id="birth-date"
+      type="date"
+      name=""
+    )
+    br
+    label(for="phone-m") Mobile Number 
+    br
+    input(
+      id="phone-m"
+      type="number"
+    )
+    br
+    label(for="address") Address 1*
+    br
+    input(
+      type="address"
+    )
+    br
+    label(for="address-2") Address 2
+    br
+    input(
+      type="address"
+    )
+    br
+    label(for="post-code") Post Code 
+    br
+    input(
+      type="post-code"
+    )
+    br
+    label(for="city") City*
+    br
+    input(type="city")
+    br
+    label(for="country") Country 
+    br
+    input(type="country")
+    br
+    label(for="email") Email*
+    br
+    input(
+      type="email"
+      name=""
+    )
+    br
+    label(for="password") Password
+    br
+    input(
+      type="password"
+      name=""
+    )
+    br
+    input(
+      type="search"
+      name=""
+    )
+    br
+    p Now this is the most important part
+    label(
+      for="fav-car"
+      ) Favourite Car
+      select(
+        name="fav-car"
+      )
+        option(
+          value=""
+        ) 
+        option(
+          value="mercedes"
+        ) Mercedes 
+        option(
+          value="bmw"
+        ) BMW 
+        option(
+           value="audi"
+        ) Audi
+    br
+    br
+    input(
+      type="button"
+      value="Submit"
+    )
+    input(
+      type="reset"
+    )
+    br
+    br
+    p * - this is a required field
+//-------------------------------
+    //-to be used on further work
+    //- this will be a checkbox multi option
+//-------------------------------
+    //- br
+    //- input(
+    //-   type="checkbox"
+    //-   name=""
+    //-   )
