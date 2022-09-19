@@ -1,0 +1,188 @@
+extend ../../_component/layout/base
+
+block awesome-content
+
+  style.
+    div {
+      padding-left: 3px;
+    }
+
+  h1 Website Visitor Form 
+  div
+    form(
+      action="../message.html"
+    ) 
+      //- first name and last name labels to be added on same line 
+      label(for="first-name") First Name
+      br
+      input(
+        type="name"
+        id="first-name"
+      )
+      br
+      label(for="last-name") Last Name
+      br
+      input(
+        type="text"
+        id="last-name"
+      )
+      br
+      label(for="email") Email
+      br
+      input(
+        type="email"
+        id="email"
+      )
+      br
+      p How did you find this website?
+      input(
+        type="checkbox"
+        id="google"
+      )
+      label(for="google") Google
+      br
+      input(
+        type="checkbox"
+        id="tv"
+      )
+      label(for="tv") TV
+      br
+      input(
+        type="checkbox"
+        id="magazine"
+      )
+      label(for="magazine") Magazine
+      br
+      br
+      p How many times you visit our website?
+      input(
+        type="checkbox"
+        id="once"
+      )
+      label(for="once") Once a month
+      br
+      input(
+        type="checkbox"
+        id="few"
+      )
+      label(for="few") A few times per week
+      br
+      input(
+        type="checkbox"
+        id="first"
+      )
+      label(for="first") This is my first visit
+      br
+      br
+      p What was your main reason for visiting our site?
+      input(
+        type="checkbox"
+        name="curiousity"
+      )
+      label(for="curiousity") Curiousity
+      br
+      input(
+        type="checkbox"
+        name="killing-time"
+      )
+      label(for="killing-time") Killing time
+      br
+      input(
+        type="checkbox"
+        name="accidentally"
+      )
+      label(for="accidentally") Accidentally
+      br
+      br
+      label(
+        for="age"
+      ) Age
+        br
+        select(
+          name="age"
+        )
+          option(
+            value="select"
+          ) Please select
+          option(
+            value="18"
+          ) 18 or younger
+          option(
+            value="25-35"
+          ) 25-35
+          option(
+            value="45-55"
+          ) 45-55
+          option(
+            value="55-65"
+          ) 55-65
+          option(
+            value="zombi"
+          ) Zombi
+      br
+      br
+      label(
+        for="gender"
+      ) Gender
+        br
+        select(
+          name="gender"
+        )
+          option(
+            value="select"
+          ) Please select
+          option(
+            value="male"
+          ) Male
+          option(
+            value="female"
+          ) Female
+          option(
+            value="alien"
+          ) Alien
+      br
+      br
+      label(
+        for="income"
+      ) Income
+        br
+        select(
+          name="income"
+        )
+          option(
+            value="select"
+          ) Please select
+          option(
+            value="15"
+          ) £15K - £30K
+          option(
+            value="30"
+          ) £30K - £50K
+          option(
+            value="50"
+          ) £50K - £70K
+          option(
+            value="over"
+          ) Over £150K
+          option(
+            value="elon"
+          ) I am Elon Musk
+      br
+      br
+      br
+      label(
+        for="comment"
+      ) Comment
+      br
+      textarea(
+        name="comment"
+        id="comment"
+        cols="60"
+        rows="10"
+      )
+      br
+      input(
+        type="submit"
+        value="Submit"
+      )
+  //- maybe reset button to be added
