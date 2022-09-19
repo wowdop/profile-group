@@ -1,0 +1,47 @@
+extend ../../_component/layout/base
+
+block awesome-content
+
+  style.
+    div {
+      margin-left: 5px;
+    }
+  
+  div
+    h1 Contact Us Form
+    form
+      label(for="name") Name
+      br
+      input(
+        type="text"
+        id="name"
+      )
+      br
+      label(for="phone") Phone number
+      br
+      input(
+        type="number"
+        id="phone"
+      )
+      br
+      label(for="email") Email address
+      br
+      input(
+        type="email"
+      )
+      br
+      label(for="comments") Comments 
+      br
+      textarea(
+        name="comments"
+        id="comments"
+        cols="40"
+        rows="10"
+        style="font-family:arial;font-size:1.2em;color:red;"
+      ) Your message here please!
+      br
+      br
+      input(
+        type="submit"
+        value="Submit"
+      )
