@@ -1,0 +1,52 @@
+{
+  "name": "Florin Bizgan",
+  "githubId": "007florin",
+  "work":[
+    {
+      "link": "a-tag",
+      "title": "Doar un tag",
+      "fileType": "folder"
+    },
+    {
+      "link": "abbr",
+      "title": "Nu se stie",
+      "fileType": "folder"
+    },
+    {
+      "link": "adresa",
+      "title": "Secret",
+      "fileType": "folder"
+    },
+    {
+      "link": "audio",
+      "title": "M",
+      "fileType": "folder"
+    },
+    {
+      "link": "button",
+      "title": "Apasa si ai sa vezi",
+      "fileType": "folder"
+    },
+    {
+      "link": "combinatie",
+      "title": "Aici nu ami stiu ce era",
+      "fileType": "folder"
+    },
+    {
+      "link": "form",
+      "title": "Formulare pentru toata lumea",
+      "fileType": "folder"
+    },
+    {
+      "link": "nav-bar",
+      "title": "Am vre noi sa fie un Nav bar",
+      "fileType": "folder"
+    },
+    {
+      "link": "tabel",
+      "title": "Tabel cu de toate",
+      "fileType": "folder"
+    }
+  ]
+  
+}
