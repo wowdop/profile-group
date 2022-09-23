@@ -2,29 +2,51 @@ extend ../../_component/layout/base
 
 block awesome-content
 
+  doctype html
   style.
-    ul-2 {
+    ul.list-z {
       margin-left: 5px;
       display: flex;
       flex-direction: row;
-      background-color: red;
+      background-color: grey;
+      padding: 10px;
     }
-
-    li-2 {
-      background-color: white;
-      margin: 6px;
-      border-radius: 3px;
+    input:hover {
+      color: red;
+      transform: scaleX(5.12) scaleY(5.12) scaleZ(5.5);
+      transition: 1.5s ease-in-out;
     }
-
-  h1 Nav Bar 
+  h1 Nav Bar
   br
-  ul-2
-    li-2 Home
-    li-2 News
-    li-2 Contact
-    li-2 About
-  
+  ul.list-z
+    input(
+      type="button"
+      onclick="location.href='https://wowdop.com/';"
+      value="Home"
+    )
+    input(
+      type="button"
+      onclick="location.href='https://wowdop.com/';"
+      value="News"
+    )
+    input(
+      type="button"
+      onclick="location.href='https://wowdop.com/';"
+      value="Contact"
+    )
+    input(
+      type="button"
+      onclick="location.href='https://wowdop.com/';"
+      value="About"
+    )
+  p At the moment on click you will be redirected to wowdop.com
+  p If you hoover over the button it's size will increase and text color will change to red.
+    //- Part of old menu
+    //- li.list-2 Home
+    //- li.list-2 News
+    //- li.list-2 Contact
+    //- li.list-2 About
   p Nav bar incomplete, more work to be done
-
-
   //- Nav bar incomplete, more work to be done
+
+
