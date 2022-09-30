@@ -1,0 +1,52 @@
+.grid-mz {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 16px;
+  padding: 8px;
+
+  width: 320px;
+}
+
+.patrat-mz {
+  padding-top: 100%;
+}
+
+.patrat-mz:nth-child(3n + 1) {
+  background-color: lightgreen;
+}
+
+.patrat-mz:nth-child(3n + 2) {
+  background-color: lightcoral;
+}
+
+.patrat-mz:nth-child(3n) {
+  background-color: lightblue;
+}
+
+.dintr-alt-punct-de-vedere {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 8px;
+  width: 320px;
+  gap: 16px;
+
+  justify-content: center;
+}
+
+.row-wrap-mz {
+  background-color: lightcoral;
+  height: 100px;
+  width: 64px;
+}
+
+.row-wrap-mz[span="2"] {
+  background-color: lightcoral;
+  height: 100px;
+  width: 144px;
+}
+
+.row-wrap-mz[span="3"] {
+  background-color: lightcoral;
+  height: 100px;
+  width: 224px;
+}
