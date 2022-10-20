@@ -1,0 +1,27 @@
+extend ../../_component/layout/base.pug
+
+
+//-  ol
+ol(type='I')
+  li Je veux un café
+  li Tu veux un thé
+  li Il veux du lait
+
+
+//-  ul
+ul(style="list-style-type:square")
+  li
+    data(value='21053') Le matin le petit-déjeuner
+  li
+    data(value='21054') Le midi c'est le déjeuner
+  li
+    data(value='21055') Le soir bien le dîner
+
+
+//-  iframe   (inline frame este folosit pt a incorpora un document in html document)
+h1 Aici pun elementul iframe
+iframe(
+  src='file:///Users/m2s/Desktop/Projects/My%20first%20project/index.html'
+  title='Primul meu proiect creat in html'
+  width='300'
+  )

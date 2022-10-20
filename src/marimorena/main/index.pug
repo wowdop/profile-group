@@ -1,0 +1,561 @@
+doctype html
+
+
+block awesome-content
+  h1  Here's the deal :))
+
+
+//-  Aici doresc sa pun basic code snippets din HTML
+//-  ! Good to remember  element/tag  .class   #id   !
+//-  in head putem pune: title, style, link, meta, script, noscript
+
+head
+  title Titlul paginii este acesta
+
+  meta(charset='UTF-8')
+  meta(name='keywords' content='HTML,CSS,JavaScript')
+  meta(name='author' content='Marimorena')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  link(rel='stylesheet' href='styles.css')
+
+  style
+    h4 (color:deeppink;)
+
+
+header
+
+  p(
+    style='font-size:50px'
+    )  &#xF497;
+  br
+
+  span(
+    style='font-size:20px;'
+    ) &#x2728;
+  span(
+    style='font-size:20px;'
+    ) &#x2728;
+  br
+
+
+//-  <a> tag
+a(
+  href='file:///Users/m2s/Desktop/Projects/My%20first%20project/index.html'
+  target='_blank'
+  )
+  img(
+    border='none'
+    alt='Primul meu proiect ... gen'
+    src='Resurse/CSS/pozeee/milogo.png'
+    width='170'
+    height='170'
+    )
+p
+  | Pentru mai multe informatii click
+  a(
+    href='https://www.wikipedia.org/'
+    target='_blank'
+    ) aici
+
+
+//-  Aici vreau sa pun un element audio cu atributele src, controls, loop
+h3 The audio element
+p Click on the play button to play a nice beat:
+
+audio(controls='')
+  source(
+    src='Resurse/CSS/audio/Hypnotic Tranquil.mp3'
+    type='audio/mp3'
+    )
+audio(controls='')
+  source(
+    src='Resurse/CSS/audio/Les Djinns Trentemoller.mp3'
+    type='audio/mp3'
+    )
+
+
+//-  nav
+nav
+  a(
+    href='/html/'
+    ) HTML
+  |  |
+  a(
+    href='/css/'
+    ) CSS
+  |  |
+  a(
+    href='/js/'
+    ) JavaScript
+  |  |
+  a(
+    href='/python/'
+    ) Python
+
+
+//-  address tag
+h1 Take a look at my address
+address
+  | Mail me at:
+  a(
+    href='mailto:cmsmarilena@fmail.com'
+    ) Marilena
+  br
+  |   You can find me at:
+  br
+  |   Paris, Europe
+  br
+  |   Nr. 5
+
+
+
+//-  Span element care este un inline container care marcheaza un cuv/text/document
+h1 The span element
+p
+  | Camasa mea este
+  span(
+    style='color:red;font-weight:bold'
+    ) rosie
+  |  iar pantalonii
+  |   mei sunt
+  span(
+    style='color:blue;font-weight:bold'
+    ) albastrii
+  | .
+
+
+
+//-  main article section elements
+main
+  h1 Most Popular Browsers
+  p Chrome, Firefox, and Edge are the most used browsers today.
+
+  article
+    h2 Google Chrome
+    p
+      | Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world&apos;s most
+      | popular web browser today!
+
+  section
+    h2 Web development
+    p
+      | Web development is the work involved in developing a website for the Internet (World Wide Web) or an
+      | intranet (a private network).[1] Web development can range from developing a simple single static page
+      | of plain text to complex web applications, electronic businesses, and social network services. A more
+      | comprehensive list of tasks to which Web development commonly refers, may include Web engineering, Web
+      | design, Web content development, client liaison, client-side/server-side scripting, Web server and
+      | network security configuration, and e-commerce development.
+
+
+
+//-  h1...h6
+h1 Acesta este un Heading 1
+h2 Acesta este un Heading 2
+h3 Acesta este un Heading 3
+h4 Acesta este un Heading 4
+h5 Acesta este un Heading 5
+h6 Acesta este un Heading 6
+
+
+//-  area tag
+h1 The map and area elements
+p
+  | Click on the ocean, the sky, or the little bridge to go to a new page and read more about the topic:
+img(
+  src='Resurse/CSS/pozeee/summer.jpg'
+  alt='Summer Pic'
+  usemap='#summermap'
+  width='400'
+  height='379'
+  )
+
+map(
+  name='summermap'
+  )
+  area(
+    shape='rect'
+    coords='34,44,270,350'
+    alt='Sea'
+    href='sea.htm'
+    )
+  area(
+    shape='rect'
+    coords='290,172,333,250'
+    alt='Sky'
+    href='sky.htm'
+    )
+  area(
+    shape='circle'
+    coords='337,300,44'
+    alt='Bridge'
+    href='bridge.htm'
+    )
+
+
+
+//-  aside tag
+p  Aici scriu un simpluy paragraf. Why not?
+aside
+  h4 Aside Tag
+  p  Aside tag se refera la un continut un pic in afara subiectului in sine.
+
+
+//-  b
+p
+  | Acesta este un text normal -
+  b acesta este bold text
+  | .
+
+p
+  | Acest tag
+  mark mark
+  |  scoate in evidenta un cuvant sau text.
+
+
+//-  button element
+button(
+  type='button'
+  onclick="alert('Hello world!')"
+  ) Click Me!
+
+
+//-  blockquote tag cu atributul cite
+p Acesta este un blockquote de pe websiteul WWF&apos;s website:
+blockquote(
+  cite='http://www.worldwildlife.org/who/index.html'
+  )
+  | For 50 years, WWF has been protecting the future of nature. The world&apos;s leading conservation organization,
+  | WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5
+  | million globally.
+
+
+//-  DIV tag
+h1 Aici este vorba despre DIV element
+
+.myDiv
+  h2 Acesta este un heading
+  p Acesta este un text/paragraf in div.
+p Aici am pus un text in afara div.
+h3 Am pus o galerie foto intr-un div
+
+.gallery
+  a(
+    target='_blank'
+    href='file:///Users/m2s/Desktop/Projects/My%20first%20project/index.html'
+    )
+    img(
+      src='Resurse/CSS/pozeee/girafe.jpg'
+      alt='Girafe'
+      width='600'
+      height='400'
+      )
+
+  .descrieregallery Add a description of the image here
+
+
+.gallery
+  a(
+    target='_blank'
+    href='file:///Users/m2s/Desktop/Projects/My%20first%20project/index.html'
+    )
+    img(
+      src='Resurse/CSS/pozeee/semiluna.jpg'
+      alt='Semiluna'
+      width='600'
+      height='400'
+      )
+
+  .descrieregaller Add a description of the image here
+
+
+.gallery
+  a(
+    target='_blank'
+    href='file:///Users/m2s/Desktop/Projects/My%20first%20project/index.html'
+    )
+    img(
+      src='Resurse/CSS/pozeee/dunes.jpg'
+      alt='Dunes'
+      width='600'
+      height='400'
+      )
+  .descrieregallery Add a description of the image here
+
+
+//-  div class grid container
+.grid-container
+  .grid-item 1
+  .grid-item 2
+  .grid-item 3
+  .grid-item 4
+  .grid-item 5
+  .grid-item 6
+  .grid-item 7
+  .grid-item 8
+  .grid-item 9
+
+
+//-  iframe   (inline frame este folosit pt a incorpora un document in html document)
+h1 Aici pun elementul iframe
+iframe(
+  src='file:///Users/m2s/Desktop/Projects/My%20first%20project/index.html'
+  title='Primul meu proiect creat in html'
+  width='300'
+  )
+
+
+//-  ol
+ol(type='I')
+  li Je veux un café
+  li Tu veux un thé
+  li Il veux du lait
+
+
+//-  ul
+ul
+  li
+    data(value='21053') Le matin le petit-déjeuner
+  li
+    data(value='21054') Le midi c'est le déjeuner
+  li
+    data(value='21055') Le soir bien le dîner
+
+
+//-  embed tag
+embed(
+  type='image/jpg'
+  src='Resurse/CSS/pozeee/cutehat.jpg'
+  width='400'
+  height='600'
+  )
+
+embed(
+  type='video/webm'
+  src='Resurse/CSS/video/bloodysky.mp4'
+  width='600'
+  height='400'
+  )
+
+video(
+  width='600'
+  height='400'
+  controls=''
+  autoplay=''
+  loop=''
+  )
+  source(
+    src='Resurse/CSS/video/waves.mp4'
+    type='video/mp4'
+    )
+
+
+//-  figure  si  figcaption
+figure
+  img(
+    src='Resurse/CSS/pozeee/bijoux.jpg'
+    alt='Bijuterii'
+    style='width:50%'
+    )
+  figcaption O imagine cu bijuterii dor&eacute;s
+
+
+//-  hr tag
+h4  Aici am folosit hr element in html
+p
+  | HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page,
+  | and consists of a series of elements. HTML elements tell the browser how to display the content.
+hr
+p
+  | CSS is a language that describes how HTML elements are to be displayed on screen, paper, or in other
+  | media. CSS saves a lot of work, because it can control the layout of multiple web pages all at once.
+hr
+p
+  | JavaScript is the programming language of HTML and the Web. JavaScript can change HTML content and
+  | attribute values. JavaScript can change CSS. JavaScript can hide and show HTML elements, and more.
+
+
+//-  img tag
+img(
+  src='Resurse/CSS/pozeee/bhorse.jpg'
+  alt='Black Horse Beauty'
+  width='250'
+  height='300'
+  )
+
+
+//-  map tag in html
+img(
+  src='Resurse/CSS/pozeee/desertimg.jpg'
+  width='250'
+  height='300'
+  alt='Desert'
+  usemap='#desertmap'
+  )
+map(name='desertmap')
+  area(shape='rect' coords='0,0,82,126' alt='Sky' href='sky.htm')
+  area(shape='circle' coords='90,58,3' alt='Sand' href='sand.htm')
+  area(shape='circle' coords='124,58,8' alt='Girl' href='girl.htm')
+
+
+//-  progress tag  cu atributele  value si max
+h4 Acesta este progress element cu atributul value de 32% si atributul max de 100
+label(for='file') Downloading progress:
+progress#file(value='32' max='100')  32%
+
+
+//-  form
+h3  Simple form exemple
+
+form(
+  action='/action_page.js'
+  method='post'
+  target='_blank'
+  autocomplete='off'
+  )
+  legend
+    h4 Aceasta este legenda din acest formular:
+  label(for='fname') Nume:
+  input#fname(
+    type='text'
+    name='fname')
+  br
+  br
+  label(for='lname') Prenume:
+  input#lname(
+    type='text'
+    name='lname')
+  br
+  br
+  textarea#scrieceva(
+    name='scrietext'
+    rows='4'
+    cols='30')
+    | Aici poti adauga un text despre orice
+    | subiect doresti sa abordezi. Free your mind!
+  br
+  br
+  input(type='submit' value='Submit')
+  button(type='reset' value='Reset') Reset
+
+
+
+h1 Form with checkboxes
+h4  Un simplu exemplu de form cu checkboxes
+
+form(action='/action_page.php' method='get')
+  input(type='checkbox' name='vehicle1' value='Bike')
+  label(for='vehicle1')  I have a bike
+  br
+  input(type='checkbox' name='vehicle2' value='Car')
+  label(for='vehicle2')  I have a car
+  br
+  input(type='checkbox' name='vehicle3' value='Boat' checked='')
+  label(for='vehicle3')  I have a boat
+  br
+  br
+  input(type='submit' value='Submit')
+
+
+
+h1 Form with radio buttons
+h4  Un simplu exemplu de form cu radio buttons
+
+form(action='/action_page.js' method='get')
+  input#html(type='radio' name='fav_language' value='HTML')
+  label(for='html') HTML
+  br
+  input#css(type='radio' name='fav_language' value='CSS' checked='checked')
+  label(for='css') CSS
+  br
+  input#javascript(type='radio' name='fav_language' value='JavaScript')
+  label(for='javascript') JavaScript
+  br
+  br
+  input(type='submit' value='Submit')
+
+
+h1 The button value attribute
+h4  Un simplu exemplu de form
+
+form(action='/action_page.js' method='get')
+  | Choose your favorite subject:
+  button(name='subject' type='submit' value='fav_HTML') HTML
+  button(name='subject' type='submit' value='fav_CSS') CSS
+
+
+//- table tag html
+h4  Aici este un exemplu de table
+
+table(
+  style='width:100%'
+  border='1px solid black'
+  cellpadding=5
+  )
+  tr
+    th ISBN
+    th Title
+    th Price
+  tr
+    td 3476896
+    td My first HTML
+    td(style='text-align:right') $53
+  tr
+    td 2489604
+    td My first CSS
+    td(style='text-align:right') $47
+
+
+h4  Aici este un exemplu de table
+table
+  colgroup
+    col(span='2' style='background-color:lightpink')
+    col(style='background-color:lightblue')
+  tr
+    th ISBN
+    th Title
+    th Price
+  tr
+    td 3476896
+    td My first HTML
+    td $53
+  tr
+    td 5869207
+    td My first CSS
+    td $49
+
+
+
+footer
+  h5 The summary element
+  details
+    summary Despre aceasta pagina
+    p
+      | In aceasta pagina este vorba despre cel mai des intalnite elemente in html si atributele lor.
+  p
+    a(href='mailto:cmsmarilena@gmail.com') Send email
+  br
+  a(href='tel:+33000000000') +33 0000 00 000
+  p &#x2728; &#x2728; &#x2728; &#x2728; &#x2728;
+
+
+  iframe.giphy-embed(
+    src='https://giphy.com/embed/AWNxDbtHGIJDW'
+    width='150'
+    height='150'
+    frameborder='0'
+    allowfullscreen=''
+    )
+  iframe.giphy-embed(
+    src='https://giphy.com/embed/LHZyixOnHwDDy'
+    width='150'
+    height='150'
+    frameborder='0'
+    allowfullscreen=''
+    )
+  iframe.giphy-embed(
+    src='https://giphy.com/embed/74ySzYgrcYkKc'
+    width='150'
+    height='150'
+    frameborder='0'
+    allowfullscreen=''
+    )

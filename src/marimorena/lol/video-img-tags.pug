@@ -1,0 +1,52 @@
+extend ../../_component/layout/base.pug
+
+
+//-  embed tag
+embed(
+  type='image/jpg'
+  src='/_asset/image/download.jpg'
+  width='400'
+  height='600'
+  )
+
+embed(
+  type='video/mp4'
+  src='/_asset/video/earth.mp4'
+  width='600'
+  height='400'
+  )
+
+video(
+  width='600'
+  height='400'
+  controls=''
+  autoplay=''
+  loop=''
+  )
+  source(
+    src='/_asset/video/earth.mp4'
+    type='video/mp4'
+    )
+
+
+//-  img tag
+img(
+  src='/_asset/image/download.jpg'
+  alt='Nu stiu despre ce imagine e vorba :/'
+  width='250'
+  height='300'
+  )
+
+
+//-  map tag in html
+img(
+  src='/_asset/image/download.jpg'
+  width='250'
+  height='300'
+  alt='Desert'
+  usemap='#desertmap'
+  )
+map(name='desertmap')
+  area(shape='rect' coords='0,0,82,126' alt='Sky' href='sky.htm')
+  area(shape='circle' coords='90,58,3' alt='Sand' href='sand.htm')
+  area(shape='circle' coords='124,58,8' alt='Girl' href='girl.htm')

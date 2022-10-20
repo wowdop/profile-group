@@ -1,0 +1,98 @@
+{
+  "name": "Marimorena",
+  "githubId": "marimorena",
+  "work": [
+    {
+      "link": "main",
+      "title": "Primul proiect easy peasy",
+      "fileType": "folder",
+      "children": [
+        {
+          "link": "main/aside-tag",
+          "title": "Primul proiect pt tag aside",
+          "fileType": "file"
+        },
+        {
+          "link": "main/audio-tag",
+          "title": "Ceva despre soundssss",
+          "fileType": "file"
+        },
+        {
+          "link": "main/figure-and-caption",
+          "title": "O pagina despre figure & caption elements",
+          "fileType": "file"
+        },
+        {
+          "link": "main/table-tag",
+          "title": "Ohhh ... it's about ...tables",
+          "fileType": "file"
+        }
+      ]
+    },
+    {
+      "link": "lol/the-svg-element",
+      "title": "How to draw a SVG",
+      "filetype": "file"
+    },
+    {
+      "link": "lol/form-&-time",
+      "fileType": "file",
+      "title": "Aici avem unul, doua exemple de formulare"
+    },
+    {
+      "link": "lol/hr-&-progress-tag",
+      "filetype": "file",
+      "title": "Am folost horizontal line si progress bar"
+    },
+    {
+      "link": "lol/lists",
+      "fileType": "file",
+      "title": "Liste avec un peu de français"
+    },
+    {
+      "link": "lol/video-img-tags",
+      "fileType": "file",
+      "title": "Some entertaining ...things"
+    },
+    {
+      "link": "yay/address",
+      "fileType": "file",
+      "title": "Elementul adresa html"
+    },
+    {
+      "link": "yay/bold-&-mark-text",
+      "fileType": "file",
+      "title": "Un simplu text cu bold si mark"
+    },
+    {
+      "link": "yay/button-element",
+      "fileType": "file",
+      "title": "Am audaugat in html un buton"
+    },
+    {
+      "link": "yay/div",
+      "fileType": "file",
+      "title": "Intr-adevar unul din cele mai utilizate elem in html"
+    },
+    {
+      "link": "yay/footer-element",
+      "fileType": "file",
+      "title": "This is about footer"
+    },
+    {
+      "link": "yay/head-element",
+      "fileType": "file",
+      "title": "We used head element"
+    },
+    {
+      "link": "yay/header-anchor-nav",
+      "fileType": "file",
+      "title": "Trei elemente ca: header, anchor tag si nav"
+    },
+    {
+      "link": "yay/span-main-area-tags",
+      "fileType": "file",
+      "title": "Interesante taguri precum span ori area"
+    }
+  ]
+}
