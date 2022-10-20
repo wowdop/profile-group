@@ -1,0 +1,172 @@
+extend ../../_component/layout/base.pug
+
+h3
+  | Suntem la dispozitia voastra in fiecare zi intre ora
+  time 12:00
+  ⎮ si
+  time 18:00
+
+h4
+  ⎮ Pentru mai multe detalii contacteaza-ne
+  a(
+    href='https://es.wikipedia.org/wiki/Marte_(planeta)'
+    target='_blank'
+    ) aici
+
+
+//-  Aici pun html Form
+
+h3  Simple form exemple
+
+form(
+  action='/action_page.js'
+  method='post'
+  target='_blank'
+  autocomplete='off'
+  )
+  legend
+    h4 Aceasta este legenda din acest formular:
+  label(
+    for='fname'
+    ) Nume:
+  input#fname(
+    type='text'
+    name='fname'
+    autocomplete='off'
+    )
+  br
+  br
+  label(
+    for='lname'
+    ) Prenume:
+  input#lname(
+    type='text'
+    name='lname'
+    autocomplete='off'
+    )
+  br
+  br
+  textarea#scrieceva(
+    name='scrietext'
+    rows='4'
+    cols='30'
+    autocomplete='off'
+    )
+    | Aici poti adauga un text despre orice
+    | subiect doresti sa abordezi. Free your mind!
+  br
+  br
+  input(
+    type='submit'
+    value='Submit'
+    )
+  button(
+    type='reset'
+    value='Reset'
+    ) Reset
+
+
+
+h1 Form with checkboxes
+h4  Un simplu exemplu de form cu checkboxes
+
+form(
+  action='/action_page.js'
+  method='get'
+  )
+  input(
+    type='checkbox'
+    name='vehicle1'
+    value='Bike'
+    )
+  label(
+    for='vehicle1'
+    )  I have a bike
+  br
+  input(
+    type='checkbox'
+    name='vehicle2'
+    value='Car'
+    )
+  label(
+    for='vehicle2'
+    )  I have a car
+  br
+  input(
+    type='checkbox'
+    name='vehicle3'
+    value='Boat'
+    checked=''
+    )
+  label(
+    for='vehicle3'
+    )  I have a boat
+  br
+  br
+  input(
+    type='submit'
+    value='Submit'
+    )
+
+
+
+h1 Form with radio buttons
+h4  Un simplu exemplu de form cu radio buttons
+
+form(
+  action='/action_page.js'
+  method='get'
+  )
+  input#html(
+    type='radio'
+    name='fav_language'
+    value='HTML'
+    )
+  label(
+    for='html'
+    ) HTML
+  br
+  input#css(
+    type='radio'
+    name='fav_language'
+    value='CSS'
+    checked='checked'
+    )
+  label(
+    for='css'
+    ) CSS
+  br
+  input#javascript(
+    type='radio'
+    name='fav_language'
+    value='JavaScript'
+    )
+  label(
+    for='javascript'
+    ) JavaScript
+  br
+  br
+  input(
+    type='submit'
+    value='Submit'
+    )
+
+
+h1 The button value attribute
+h4  Un simplu exemplu de form
+
+form(
+  action='/action_page.js'
+  method='get')
+  | Choose your favorite subject:
+  button(
+    name='subject'
+    type='submit'
+    value='fav_HTML'
+    ) HTML
+  button(
+    name='subject'
+    type='submit'
+    value='fav_CSS'
+    ) CSS
+

@@ -1,0 +1,75 @@
+extend ../../_component/layout/base.pug
+
+
+//-  Span element care este un inline container care marcheaza un cuv/text/document
+h1 The span element
+p
+  | Camasa mea este
+  span(
+    style='color:red;font-weight:bold'
+    ) rosie
+  |  iar pantalonii
+  |   mei sunt
+  span(
+    style='color:blue;font-weight:bold'
+    ) albastrii
+  | .
+
+
+
+//-  main article section elements
+main
+  h1 Most Popular Browsers
+  p Chrome, Firefox, and Edge are the most used browsers today.
+
+  article
+    h2 Google Chrome
+    p
+      | Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world&apos;s most
+      | popular web browser today!
+
+  section
+    h2 Web development
+    p
+      | Web development is the work involved in developing a website for the Internet (World Wide Web) or an
+      | intranet (a private network).[1] Web development can range from developing a simple single static page
+      | of plain text to complex web applications, electronic businesses, and social network services. A more
+      | comprehensive list of tasks to which Web development commonly refers, may include Web engineering, Web
+      | design, Web content development, client liaison, client-side/server-side scripting, Web server and
+      | network security configuration, and e-commerce development.
+
+
+
+//-  area tag
+h1 The map and area elements
+p
+  | Click on the ocean, the sky, or the little bridge to go to a new page and read more about the topic:
+img(
+  src='/_asset/image/download.jpg'
+  alt='Summer Pic'
+  usemap='#summermap'
+  width='400'
+  height='379'
+  )
+
+map(
+  name='summermap'
+  )
+  area(
+    shape='rect'
+    coords='34,44,270,350'
+    alt='Sea'
+    href='sea.htm'
+    )
+  area(
+    shape='rect'
+    coords='290,172,333,250'
+    alt='Sky'
+    href='sky.htm'
+    )
+  area(
+    shape='circle'
+    coords='337,300,44'
+    alt='Bridge'
+    href='bridge.htm'
+    )

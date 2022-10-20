@@ -1,0 +1,42 @@
+extend ../../_component/layout/base.pug
+
+
+//-  table tag html
+h4  Aici este un exemplu de table
+
+table(
+  style='width:100%'
+  border='1px solid black'
+  cellpadding=5
+  )
+  tr
+    th ISBN
+    th Title
+    th Price
+  tr
+    td 3476896
+    td My first HTML
+    td(style='text-align:right') $53
+  tr
+    td 2489604
+    td My first CSS
+    td(style='text-align:right') $47
+
+
+h4  Aici este un exemplu de table
+table
+  colgroup
+    col(span='2' style='background-color:lightpink')
+    col(style='background-color:lightblue')
+  tr
+    th ISBN
+    th Title
+    th Price
+  tr
+    td 3476896
+    td My first HTML
+    td $53
+  tr
+    td 5869207
+    td My first CSS
+    td $49
