@@ -1,0 +1,19 @@
+extend ../../_component/layout/base.pug
+
+
+//-  Picture tag in html/ pug defapt
+
+picture
+  source(
+    srcset='../../_asset/image/download.jpg'
+    media='min-width:650px'
+  )
+  source(
+    srcset='../../_asset/image/download.jpg'
+    media='min-width:450px'
+  )
+  img(
+    src='../../_asset/image/download.jpg'
+    alt='Flowers'
+    style='width: auto'
+  )
